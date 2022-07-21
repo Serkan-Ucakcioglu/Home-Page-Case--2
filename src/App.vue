@@ -15,4 +15,7 @@ import HeaderBar from './components/HeaderBar.vue';
   max-width: 1250px;
   margin: 0px auto;
 }
+a{
+  text-decoration: none;
+}
 </style>
