@@ -135,7 +135,7 @@
       <!-- Blog image and title -->
       <div class="blog">
         <img
-          src="https://media.kommunity.com/communities/tracikkaynak/19054/acik-kaynak-platformu.jpg?p=event" 
+          src="https://media.kommunity.com/communities/tracikkaynak/19054/acik-kaynak-platformu.jpg?p=event"
           loading="lazy"
           width="350"
         />
@@ -299,7 +299,7 @@
     nav {
       margin-top: 120px !important;
       width: 100%;
-      .social-media{
+      .social-media {
         display: none !important;
       }
     }

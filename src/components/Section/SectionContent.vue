@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SectionCard from './SectionCard.vue';
+import SectionCard from "./SectionCard.vue";
 </script>
 <template>
   <section>
@@ -27,7 +27,7 @@ import SectionCard from './SectionCard.vue';
         </div>
       </div>
       <!-- component -->
-      <SectionCard/>
+      <SectionCard />
     </div>
   </section>
 </template>
