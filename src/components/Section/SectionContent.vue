@@ -1,4 +1,5 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import SectionCard from './SectionCard.vue';</script>
 <template>
   <section>
     <div class="container">
@@ -20,14 +21,17 @@
           </div>
         </div>
       </div>
+
+      <SectionCard/>
     </div>
   </section>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 section {
   .container {
     .content {
       height: 200px;
+      margin-bottom: 15px;
       .head {
         position: relative;
         .cover {
@@ -48,10 +52,12 @@ section {
         display: flex;
         justify-content: space-between;
         .title {
+          width: 60%;
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
-          margin-left: 250px;
+          align-items: center;
+          margin-top: 15px;
+
           h1 {
             display: inline;
             font-size: 24px;
@@ -78,6 +84,50 @@ section {
             cursor: pointer;
           }
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    display: flex;
+    flex-direction: column !important;
+    // Head
+    .head {
+      position: relative;
+      .cover {
+        height: 90px !important;
+        border-radius: 8px;
+        margin-top: 25px;
+        position: relative;
+      }
+      img {
+        position: absolute;
+        top: 70%;
+        border-radius: 4px;
+        margin-left: 10px !important;
+        height: 100px !important;
+      }
+    }
+
+    //   Wrapper
+    .wrapper {
+      flex-direction: column !important;
+      align-items: center !important;
+      .title {
+        width: 100%;
+        margin-left: 0 !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 18px !important;
+      }
+      .submit {
+        margin-top: -30px !important;
+        height: 40px !important;
+        align-items: center !important;
+        margin-bottom: 20px !important;
       }
     }
   }
