@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import SectionCard from './SectionCard.vue';</script>
+import SectionCard from './SectionCard.vue';
+import SectionBlog from './SectionBlog.vue';</script>
 <template>
   <section>
     <div class="container">
+      <!-- Content -->
       <div class="content">
+        <!-- Content Head  -->
         <div class="head">
           <div class="cover" style="background: rgb(28, 27, 89)"></div>
           <img
@@ -11,6 +14,8 @@ import SectionCard from './SectionCard.vue';</script>
             alt=""
           />
         </div>
+
+        <!-- Wrapper -->
         <div class="wrapper">
           <div class="title">
             <h1>Türkiye Açık Kaynak Platformu</h1>
@@ -21,7 +26,7 @@ import SectionCard from './SectionCard.vue';</script>
           </div>
         </div>
       </div>
-
+      <!-- component -->
       <SectionCard/>
     </div>
   </section>
@@ -62,6 +67,7 @@ section {
             display: inline;
             font-size: 24px;
             font-weight: bold;
+            margin-left: 20px;
           }
           span {
             display: inline;
@@ -75,6 +81,7 @@ section {
           justify-content: flex-end;
           height: 50px;
           margin-top: 20px;
+          margin-bottom: 40px;
           button {
             background-color: #38c172;
             border: 1px solid #38c172;
