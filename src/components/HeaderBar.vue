@@ -8,7 +8,6 @@ let isShow = ref<boolean>(false);
   <header>
     <div class="container">
       <div class="list">
-
         <!-- head -->
         <div class="head">
           <!-- logo img  -->
@@ -51,7 +50,7 @@ let isShow = ref<boolean>(false);
         </div>
 
         <!-- nav link header  -->
-        <nav :class="{active: isShow}" class="nav-list">
+        <nav :class="{ active: isShow }" class="nav-list">
           <a href="#">Anasayfa</a>
           <a href="#">Hakkımızda</a>
           <a href="#">Forum</a>
@@ -59,8 +58,8 @@ let isShow = ref<boolean>(false);
           <a href="#">Sponsorlar</a>
         </nav>
       </div>
-<!-- login buttons header  -->
-      <div :class="{active: isShow}" class="login">
+      <!-- login buttons header  -->
+      <div :class="{ active: isShow }" class="login">
         <button class="login-btn btn">Giriş Yap</button>
         <button class="register-btn btn">Üye Ol</button>
       </div>
@@ -155,7 +154,7 @@ header {
 
       .nav-list {
         width: 100% !important;
-        display: none ;
+        display: none;
         flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
@@ -173,13 +172,13 @@ header {
       }
     }
     .login {
-      display: none ;
+      display: none;
       justify-content: center !important;
     }
   }
 }
 
-.active{
+.active {
   display: flex !important;
 }
 </style>
