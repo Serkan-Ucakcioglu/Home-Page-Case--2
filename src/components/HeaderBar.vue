@@ -90,7 +90,16 @@ header {
 }
   //responsive 
   @media only screen and (max-width: 800px) {
-  
+.container{
+    .list{
+    .nav-list{
+      display: none;
+    }
+  }
+  .login{
+    display: none;
+  }
+}
 }
 
 
