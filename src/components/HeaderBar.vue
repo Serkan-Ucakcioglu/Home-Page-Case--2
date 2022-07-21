@@ -167,7 +167,7 @@ header {
           border: 1px solid black;
           border-radius: 4px;
           margin-bottom: 10px;
-          padding: 5px 0px !important;
+          padding: 8px 0px !important;
         }
       }
     }
