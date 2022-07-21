@@ -135,8 +135,9 @@
       <!-- Blog image and title -->
       <div class="blog">
         <img
-          src="https://media.kommunity.com/communities/tracikkaynak/19054/acik-kaynak-platformu.jpg?p=event-500"
+          src="https://media.kommunity.com/communities/tracikkaynak/19054/acik-kaynak-platformu.jpg?p=event" 
           loading="lazy"
+          width="350"
         />
         <h1>Açıklama</h1>
         <p>
@@ -213,8 +214,9 @@
         }
       }
       .blog {
+        max-width: 500px;
         img {
-          width: 450px;
+          width: 200px;
         }
 
         p {
@@ -228,6 +230,7 @@
     }
     .social-media {
       display: flex;
+      width: 100%;
       a {
         svg {
           width: 30px;
@@ -242,7 +245,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 40%;
+
   margin-left: 40px;
   margin-top: 10px;
   h4 {
@@ -258,7 +261,7 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid #e8eef1;
-    width: 350px;
+    width: 200px;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 10px;
@@ -294,8 +297,11 @@
     display: flex;
     flex-direction: column !important;
     nav {
-      margin-top: 100px !important;
+      margin-top: 120px !important;
       width: 100%;
+      .social-media{
+        display: none !important;
+      }
     }
   }
 }

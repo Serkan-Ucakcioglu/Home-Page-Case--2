@@ -239,4 +239,21 @@ footer {
    }
   }
 }
+@media only screen and (max-width: 800px) {
+  .head-btn {
+  
+    a{
+   
+    font-size: 10px !important;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-decoration: none;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+   
+  }
+}
 </style>

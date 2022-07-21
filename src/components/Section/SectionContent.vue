@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import SectionCard from './SectionCard.vue';
-import SectionBlog from './SectionBlog.vue';</script>
+</script>
 <template>
   <section>
     <div class="container">
