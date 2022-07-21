@@ -1,10 +1,11 @@
 <script lang="ts" setup>
 import HeaderBar from './components/HeaderBar.vue';
-
+import SectionContent from './components/Section/SectionContent.vue';
 
 </script>
 <template>
   <HeaderBar/>
+  <SectionContent/>
 </template>
 
 
